@@ -23,6 +23,10 @@ const router = createBrowserRouter([
         element: <Rotas/>
       },
       {
+        path: "rotas/:id",
+        element: <Rotas/>
+      },
+      {
         path: "Sobre",
         element: <Sobre/>
       },

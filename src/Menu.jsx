@@ -10,6 +10,9 @@ const Menu = () => (
                 <NavLink exact="true" to="/rotas">Rotas</NavLink>
             </li>
             <li>
+                <NavLink exact="true" to="/rotas/2023">Rotas com parametros</NavLink>
+            </li>
+            <li>
                 <NavLink exact="true" to="/sobre">Sobre</NavLink>
             </li>
         </ul>
